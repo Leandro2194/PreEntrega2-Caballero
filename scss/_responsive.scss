@@ -1,0 +1,54 @@
+
+
+
+@media (max-width:1023px) {
+    /*Header*/
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
+    
+
+    .productos {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .productos h3,
+    .productos p {
+        font-size: inherit;
+    }
+
+    .contenedorproductos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+    .contenedorNosotros {
+        flex-direction: column;
+    }
+
+    /*Footer*/
+
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    
+
+    .contenedorproductos {
+        grid-template-columns: 1fr;
+    }
+}
+
